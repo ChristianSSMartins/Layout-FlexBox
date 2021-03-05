@@ -1,0 +1,293 @@
+@font-face {
+    font-family: teste;
+    src: url(.//fonte/Poppins-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'teste';
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    background-color: whitesmoke;
+}
+
+@media (min-width: 1000px) {
+    .img-1 {
+        width: 360px;
+    }
+    .img-2 {
+        width: 755px;
+    }
+    .img-3 {
+        width: 1200px;
+    }
+    .img-4 {
+        width: 755px;
+    }
+    .img-5 {
+        width: 360px;
+    }
+}
+
+@media (max-width: 1335px) {
+    .img-1 {
+        width: 100%;
+    }
+    .img-2 {
+        width: 100%;
+    }
+    .img-3 {
+        width: 100%;
+    }
+    .img-4 {
+        width: 100%;
+    }
+    .img-5 {
+        width: 100%;
+    }
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    color: white;
+    overflow: hidden;
+}
+
+.header-container .header-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 110, 255), rgb(0, 61, 140));
+    width: 100%;
+    height: 657px;
+}
+
+.header-image h1 {
+    font-size: 60px;
+}
+
+.header-image h1:first-of-type {
+    margin-bottom: -50px;
+}
+
+.header-image div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: -150px;
+    color: rgb(67, 67, 67);
+    font-size: large;
+    font-weight: 500;
+    background-color: white;
+    width: 250px;
+    height: 50px;
+}
+
+.header-image div a {
+    align-self: center;
+}
+
+/* Grid Images Section */
+
+.section-container {
+    display: flex;
+    margin: 0px 100px 40px 100px;
+    color: rgb(61, 61, 61);
+    flex-direction: column;
+}
+
+.section-container .section-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section-title h1 {
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.grid-img-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.grid-img-container h1 {
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.grid-img-container .img-1 {
+    height: 330px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(rgb(58, 121, 79), rgb(13, 43, 23));
+}
+
+.grid-img-container .img-2 {
+    height: 330px;
+    margin-bottom: 25px;
+    background-image: linear-gradient(rgb(97, 61, 6), rgb(48, 33, 9));
+}
+
+.grid-img-container .img-3 {
+    height: 330px;
+    background-image: linear-gradient(rgb(46, 32, 97), rgb(17, 7, 51));
+}
+
+.grid-img-container .img-4 {
+    height: 330px;
+    margin-top: 25px;
+    background-image: linear-gradient(rgb(187, 178, 112), rgb(102, 95, 41));
+}
+
+.grid-img-container .img-5 {
+    height: 330px;
+    margin-top: 25px;
+    background-image: linear-gradient(rgb(124, 31, 78), rgb(104, 20, 45));
+}
+
+.title-grid-style {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.img-3 .title-grid-style {
+    margin-top: 70px;
+}
+
+.img-4 .title-grid-style {
+    margin-right: 30px;
+    align-items: flex-end;
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    margin: 0px 100px 0px 100px;
+    color: rgb(48, 48, 48);
+}
+
+.footer-container .footer-section {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: rgb(118, 69, 69); */
+}
+
+.footer-section .footer-title {
+    /* background-color: rgb(67, 197, 95); */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-section .footer-title h1 {
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.footer-section .graphics-container {
+    margin: -110px 0px 90px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+
+}
+
+.graphics-container .title-graphic-style {
+    padding: 0px 0px 0px 20px;
+}
+
+.graphics-container .title-graphic-style h1 {
+    margin-top: 13px;
+}
+
+.graphics-container .title-graphic-style h3 {
+    margin-top: -30px;
+}
+
+.graphics-container p{
+    font-size: 11.2px;
+}
+
+.graphic-1 .text-graphic-style {
+    padding-left: 20px;
+}
+.graphic-2 .text-graphic-style {
+    padding-top: 45px;
+    padding-left: 20px;
+}
+.graphic-3 .text-graphic-style {
+    padding-top: 95px;
+    padding-left: 20px;
+}
+.graphic-4 .text-graphic-style {
+    padding-top: 145px;
+    padding-left: 20px;
+}
+.graphic-5 .text-graphic-style {
+    padding-top: 195px;
+    padding-left: 20px;
+}
+.graphic-6 .text-graphic-style {
+    padding-top: 250px;
+    padding-left: 20px;
+}
+
+
+
+.graphics-container .graphic-1 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 45%, rgb(22, 85, 169) 55%, rgb(67, 148, 223) 30%, rgb(67, 148, 223) 70%);
+    height: 165px;
+}
+
+.graphics-container .graphic-2 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 40%, rgb(22, 85, 169) 45%, rgb(67, 148, 223) 30%, rgb(67, 148, 223) 70%);
+    height: 220px;
+}
+
+.graphics-container .graphic-3 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 35%, rgb(22, 85, 169) 35%, rgb(67, 148, 223) 30%, rgb(67, 148, 223) 70%);
+    height: 270px;
+}
+
+.graphics-container .graphic-4 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 15%, rgb(22, 85, 169) 30%, rgb(67, 148, 223) 20%, rgb(67, 148, 223) 70%);
+    height: 320px;
+}
+
+.graphics-container .graphic-5 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 15%, rgb(22, 85, 169) 25%, rgb(67, 148, 223) 25%, rgb(67, 148, 223) 75%);
+    height: 370px;
+}   
+
+.graphics-container .graphic-6 {
+    width: 167px;
+    background-image: linear-gradient(rgb(22, 85, 169) 15%, rgb(22, 85, 169) 23%, rgb(67, 148, 223) 23%, rgb(67, 148, 223) 70%);
+    height: 425px;
+}
